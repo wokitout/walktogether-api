@@ -26,9 +26,9 @@
 
 ```json
   party = {
-    partyId: type(indexHash),
-    users: type(Array[userId, userId]),
-    chain: type(int)
+    "partyId": "type(indexHash)",
+    "users": "type(Array[userId, userId])",
+    "chain": "type(int)"
   }
   
   user = {
