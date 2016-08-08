@@ -34,8 +34,8 @@
   user = {
     "userId": "indexHash",
     "name": "Bob Jones",
-    email: "BobJones@gmail.com",
-    phoneNum: "1234567890"
+    "email": "BobJones@gmail.com",
+    "phoneNum": "1234567890"
   }
   
   entry = {
