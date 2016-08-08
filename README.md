@@ -3,22 +3,23 @@
 # API routes
 
 ##GET
-- /getAllSteps
-- /getStepsToday
-- /getParty
-- /getUser
+- /getAllSteps - get all steps in user history
+- /getStepsToday - get steps today
+- /getParty - get user's current party
+- /getUser - get user information
 
 ##POST
-- /requestParty
-- /makeParty
-- /makeChain
-- /addChain
-- /makeUser
-- /authUser
-- /login
-- /logout
-- /makeEntry
-- /updateEntry
+- /requestParty - request friend to join
+- /joinParty - approve request to join
+- /makeParty - complete creation of party
+- /makeChain - start chain of goals
+- /addChain - add completed day to chain
+- /makeUser - create user
+- /authUser - authenticate user
+- /login - initial login route
+- /logout - initial logout route
+- /makeEntry - create entry at 12AM for user to start walking
+- /updateEntry - create time-series data (if necessary)
 
 ## Schema
 
