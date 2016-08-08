@@ -24,6 +24,7 @@
 
 ## Schema
 
+```json
   party = {
     partyId: type(indexHash)
     users: type(Array[userId, userId])
@@ -43,3 +44,4 @@
     steps: type(int)
     date: type(date)
   }
+```
