@@ -1,24 +1,22 @@
 # walktogether-api
 
-## API routes
+# API routes
 
-#GET
+##GET
 - /getAllSteps
 - /getStepsToday
 - /getParty
 - /getUser
 
-#POST
+##POST
 - /requestParty
 - /makeParty
 - /makeChain
 - /addChain
-  
 - /makeUser
 - /authUser
 - /login
 - /logout
-
 - /makeEntry
 - /updateEntry
 
