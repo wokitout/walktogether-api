@@ -11,21 +11,21 @@
    - /getUser
 
 #POST
-  Party
-    - /requestParty
-    - /makeParty
-    - /makeChain
-    - /addChain
+ Party
+   - /requestParty
+   - /makeParty
+   - /makeChain
+   - /addChain
   
   User
-    - /makeUser
-    - /authUser
-    - /login
-    - /logout
+   - /makeUser
+   - /authUser
+   - /login
+   - /logout
 
   Fitness
-    - /makeEntry
-    - /updateEntry
+  - /makeEntry
+  - /updateEntry
     
 ## Schema
 
