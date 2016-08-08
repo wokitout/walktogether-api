@@ -1,32 +1,27 @@
 # walktogether-api
 
 ## API routes
+
 #GET
- Fitness
-   - /getAllSteps
-   - /getStepsToday
-   
- User
-   - /getParty
-   - /getUser
+- /getAllSteps
+- /getStepsToday
+- /getParty
+- /getUser
 
 #POST
- Party
-   - /requestParty
-   - /makeParty
-   - /makeChain
-   - /addChain
+- /requestParty
+- /makeParty
+- /makeChain
+- /addChain
   
-  User
-   - /makeUser
-   - /authUser
-   - /login
-   - /logout
+- /makeUser
+- /authUser
+- /login
+- /logout
 
-  Fitness
-  - /makeEntry
-  - /updateEntry
-    
+- /makeEntry
+- /updateEntry
+
 ## Schema
 
   party = {
