@@ -24,7 +24,7 @@
 
 ## Schema
 
-```json
+```javascript
   party = {
     "partyId": "indexHash",
     "users": "[userId, userId]",
