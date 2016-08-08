@@ -26,22 +26,22 @@
 
 ```json
   party = {
-    "partyId": "type(indexHash)",
-    "users": "type(Array[userId, userId])",
-    "chain": "type(int)"
+    "partyId": "indexHash",
+    "users": "[userId, userId]",
+    "chain": "100"
   }
   
   user = {
-    userId: type(indexHash),
-    name: type(string),
-    email: type(string),
-    phoneNum: type(int)
+    "userId": "indexHash",
+    "name": "Bob Jones",
+    email: "BobJones@gmail.com",
+    phoneNum: "1234567890"
   }
   
   entry = {
-    entryId: type(indexHash),
-    userId: type(parent_reference),
-    steps: type(int),
-    date: type(date)
+    "entryId": "indexHash",
+    "userId": "parent_reference",
+    "steps": "9000",
+    "date": "2015-11-02"
   }
 ```
