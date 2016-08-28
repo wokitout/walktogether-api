@@ -1,3 +1,4 @@
+'use strict'
 import express from 'express';
 import webpack from 'webpack';
 import { ENV } from './config/appConfig';
